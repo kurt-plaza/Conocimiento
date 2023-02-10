@@ -1,0 +1,7 @@
+nano /opt/bitnami/apache/conf/bitnami/bitnami-ssl.conf
+
+Cambiar los siguientes campos
+
+SSLCertificateFile "/opt/bitnami/apache/conf/bitnami/certs/server.crt"
+SSLCertificateKeyFile "/opt/bitnami/apache/conf/bitnami/certs/server.key"
+SSLCertificateChainFile "/opt/bitnami/apache/conf/bitnami/certs/intermedio.crt"
