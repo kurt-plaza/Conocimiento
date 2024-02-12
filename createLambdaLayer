@@ -1,0 +1,14 @@
+mkdir NOMBRE_DE_LA_LIBRERIA
+cd NOMBRE_DE_LA_LIBRERIA
+npm i NOMBRE_DE_LA_LIBRERIA
+zip -r NOMBRE_DE_LA_LIBRERIA.zip node_modules
+
+
+
+ejemplo:
+mkdir client-cognito-identity-provider 
+cd client-cognito-identity-provider 
+npm i @aws-sdk/client-cognito-identity-provider
+zip -r client-cognito-identity-provider.zip node_modules
+
+Esto es para un lambda layer en nodejs
