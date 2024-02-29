@@ -1,0 +1,18 @@
+bubblewrap init --manifest=https://www.aprendeaws.cl/js/pwa.webmanifest
+
+
+cl.aprendeaws.www.twa
+
+
+https://www.aprendeaws.cl/img/AprendeAws512.png
+
+
+
+keytool -genkeypair -v -keystore aprendeAWS.jks -keyalg RSA -keysize 2048 -validity 10000 -alias AprendeAWS
+
+
+/Users/davidplazairiarte/Documents/Proyectos/aprendeAWS.jks
+
+AprendeAWS
+
+#1E74FD
