@@ -1,0 +1,9 @@
+Password y forzar usuario confirmado:
+
+aws cognito-idp admin-set-user-password \
+    --user-pool-id us-east-2_yupFgdpIA \
+    --username admin \
+    --password Xxca1sdaas$ \
+    --permanent \
+    --region us-east-2 \
+    --profile CompromisosApp
