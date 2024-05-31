@@ -1,0 +1,11 @@
+function obtenerFechaActual() {
+    const fechaActual = new Date();
+    const fechaSantiago = fechaActual.toLocaleString('en-US', { timeZone: 'America/Santiago' });
+    let [fecha, hora] = fechaSantiago.split(', ');
+    fecha = fecha.toString().replace(/\//g, '-').split("-").reverse().join("-");
+    return { fecha, hora };
+}
+
+const {fecha,hora} = obtenerFechaActual();
+
+console.log(fecha,"-",hora);
