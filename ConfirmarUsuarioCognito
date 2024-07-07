@@ -1,0 +1,13 @@
+aws cognito-idp initiate-auth \
+    --auth-flow USER_PASSWORD_AUTH \
+    --client-id XXXXXXXXXX \
+    --auth-parameters USERNAME=XXXXXXXXX ,PASSWORD=XXXXXXXXX \
+    --profile XXXXXX
+
+
+aws cognito-idp respond-to-auth-challenge \
+    --client-id XXXXXXXXXXX \
+    --challenge-name NEW_PASSWORD_REQUIRED \
+    --session SESION_DEL_COMANDO_ANTERIOR \
+    --challenge-responses USERNAME=XXXXXXX, NEW_PASSWORD=XXXXXXXXX \
+    --profile XXXXXX
